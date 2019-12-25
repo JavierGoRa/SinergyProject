@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+    <link rel="icon" href="img/logoSinergy.png" type="image/gif" sizes="16x16">
+    <link rel='stylesheet' href='bootstrap/css/bootstrap.min.css'>
+    <title>Sinergy Club</title>
+    <link rel='stylesheet' href='normalize.css'>
+    <link rel="stylesheet" href="mainStyle.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+
+    <iframe 
+      id="youtube" 
+      frameborder="0" 
+      allowfullscreen="1" 
+      src="https://www.youtube.com/embed/dyp2mLYhRkw?playlist=dyp2mLYhRkw&loop=1&autoplay=1&mute=1&iv_load_policy=3">
+    </iframe>
+
+    <nav id="navBar" class="navbar navbar-expand-lg navbar-light bg-light">
+      <a href="index.html"><img class="logo" src="img/logoSinergy.png"/></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Equipos
+              </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="">Counter Strike</a>
+                  <a class="dropdown-item" href="">Hearthstone</a>
+                  <a class="dropdown-item" href="">League of Legends</a>
+                  <a class="dropdown-item" href="">Overwatch</a>
+                  <a class="dropdown-item" href="">Rocket League</a>
+                  </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sponsor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          <a href="index.html"> <img  class="navBarSocial" src="img/social/twitter.png"> </a>
+          <a href="index.html"> <img class="navBarSocial" src="img/social/facebook.png"> </a>
+          <a href="index.html"> <img class="navBarSocial" src="img/social/instagram.png"> </a>
+          <a href="index.html"> <img class="navBarSocial" src="img/social/twitch.png"> </a>
+          <a href="index.html"> <img class="navBarSocial" src="img/social/youtube.png"> </a>
+        </span>
+      </div>
+    </nav>
+
+    <div class="container">
+        <span class="text1">SINERGY GAMING</span>
+        <p class="text2">Club dedicated to eSport</p>
+    </div>
+
+    <div class="foot">
+      <nav class="nav nav-pills nav-justified">
+        <a id="csButton" onclick="clickCsButton()" class="nav-item nav-link" href="#"><img class="icon" src="img/icon/icon-cs.png"></a>
+        <a id="hsButton" onclick="clickHsButton()" class="nav-item nav-link" href="#"><img class="icon" src="img/icon/icon-hs.png"></a>
+        <a id="lolButton" onclick="clickLolButton()" class="nav-item nav-link" href="#"><img class="icon" src="img/icon/icon-lol.png"></a>
+        <a id="owButton" onclick="clickOwButton()" class="nav-item nav-link" href="#"><img class="icon" src="img/icon/icon-ow.png"></a>
+        <a id="rlButton" onclick="clickRlButton()" class="nav-item nav-link" href="#"><img class="icon" src="img/icon/icon-rl.png"></a>
+      </nav>
+    </div>
+
+    <div class="credits">
+      <p> &copy Sinergy Realizada por Javier González Ramírez javigora97@gmail.com &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span>Esta página es un proyecto de clase (Desarrollo de Aplicaciones Web)</span> </p>
+    </div>
+
+    <script src="jquery/jquery-3.2.1.min.js"></script>
+    <script src="popper/popper.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+            
+</body>
+</html>
